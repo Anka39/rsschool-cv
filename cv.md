@@ -24,3 +24,12 @@ return  a * b
 }
 
 ```
+
+### Experience
+[My CV](https://github.com/Anka39/rsschool-cv)
+
+### Education
+HTML and CSS on Hexlet.io
+
+### English
+A2 — I am currently studying.
