@@ -17,4 +17,10 @@ _I want to get new skills and knowledge to work in the field of front-end develo
     * HTML
     * CSS
     * GIT
-    
+### Code exampels
+```
+function multiply(a, b){
+return  a * b
+}
+
+```
