@@ -1,0 +1,16 @@
+body
+{
+    height: 100vh;
+}
+header {
+    background-color: aquamarine;
+    height: 30%;
+}
+main {
+    background-color: blueviolet;
+    height: 50%;
+}
+footer {
+    background-color: crimson;
+    height: 20%;
+}
