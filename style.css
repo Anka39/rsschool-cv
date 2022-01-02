@@ -1,5 +1,6 @@
 body
 {
+    font-family: 'Poppins', sans-serif;
     height: 100vh;
     margin: 0;
 }
@@ -13,10 +14,19 @@ header {
     background-color: #DD3535;
     padding: 25px 5%;
     color:#FFFFFF;
+    flex-direction: column;
    
 }
-header>div>p{
+.container {
+    display: flex;
+    justify-content: space-between;
+    color:#FFFFFF;
+
+}
+.container>div>p{
     color: #8E8E8E;
+    font-family: sans-serif;
+    font-weight: 700;
 }
 .avatar {
     border-radius: 50%;
@@ -32,6 +42,14 @@ header>div>p{
     height: 150px;
     object-fit: cover;
    
+}
+.nav {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+.color {
+    color: #8E8E8E;
 }
 
 main {
