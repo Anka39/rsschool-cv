@@ -3,6 +3,12 @@ body
     font-family: 'Poppins', sans-serif;
     height: 100vh;
     margin: 0;
+    background-color:#8E8E8E;
+}
+.container_body {
+    max-width: 1024px;
+    margin: 0 auto;
+    height: 100%;
 }
 a {
     text-decoration: none;
@@ -12,7 +18,7 @@ header {
     display: flex;
     justify-content: space-between;
     background-color: #DD3535;
-    padding: 25px 5%;
+    padding: 1px 5% 25px 5%;
     color:#FFFFFF;
     flex-direction: column;
    
@@ -36,6 +42,7 @@ header {
     box-shadow: 4px 4px 8px 2px rgba(34, 60, 80, 0.2);
     min-width: 150px;
     height: 150px;
+    margin-right: 80px;
 }
 .ava {
     width: 150px;
@@ -47,6 +54,7 @@ header {
     list-style-type: none;
     display: flex;
     justify-content: space-between;
+    padding-left: 0;
 }
 .color {
     color: #8E8E8E;
@@ -59,6 +67,7 @@ main {
     justify-content: space-between;
     background-color: #FFFFFF;
     color:#DD3535;
+    height: 100%;
 }
 .skills {
     width: 100%;
@@ -91,6 +100,10 @@ footer {
     display: flex;
     align-items: center;
 }
+.git>img {
+    margin-right: 9px;
+}
+
 .rs_logo {
     height: 34px;
 }
