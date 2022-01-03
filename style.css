@@ -9,6 +9,7 @@ body
     max-width: 1024px;
     margin: 0 auto;
     height: 100%;
+    min-width: 475px;
 }
 a {
     text-decoration: none;
